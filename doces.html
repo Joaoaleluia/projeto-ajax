@@ -1,11 +1,84 @@
 <h1>Doces</h1>
+<div class="doces">
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/brownie.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Brownie</h2>
+            <p>R$15,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/Maracuja.jpg" alt="">
+            
+        </div>
+        <div class="sub-card">
+            <h2>Mousse de maracuja</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/petit.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Petit Gatue</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/torta.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Torta Alemã</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div>
+        <style>
+            .doces {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
 
-<div class="card">
-    <div class="top-card">
-        <img src="./img/brownie.jpg" alt="">
-    </div>
-    <div class="sub-card">
-        <h2>Brownie</h2>
-        <p>R$15,00</p>
-    </div>
-</div>
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                width: 250px;
+                height: 350px;
+                color: white;
+                overflow: hidden;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .top-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                display: block;
+            }
+
+            .sub-card {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                margin: 20px;
+                height: 350px;
+
+            }
+        </style>

@@ -1,8 +1,84 @@
 <h1>Bebidas</h1>
-<ul>
-    <li>Suco de laranja</li>
-    <li>Chá de limão</li>
-    <li>Coca</li>
-    <li>Guárana</li>
-    <li>Água de salsicha</li>
-</ul>
+<div class="bebidas">
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/suco-maracuja-natural.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Suco de Maracujá</h2>
+            <p>R$15,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/limonada.jpg" alt="">
+            
+        </div>
+        <div class="sub-card">
+            <h2>Limonada</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/cha-limao.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Chá de limão</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/soda-italiana.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Soda italiana</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div>
+        <style>
+            .bebidas {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                width: 250px;
+                height: 350px;
+                color: white;
+                overflow: hidden;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .top-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                display: block;
+            }
+
+            .sub-card {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                margin: 20px;
+                height: 350px;
+
+            }
+        </style>
