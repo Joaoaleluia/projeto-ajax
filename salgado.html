@@ -1,7 +1,84 @@
 <h1>Salgados</h1>
-<ul>
-    <li>Hambúrgue</li>
-    <li>Batata frita</li>
-    <li>Bolinho de carne</li>
-    <li>Hot dog</li>
-</ul>
+<div class="doces">
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/hamburguer.webp" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Hambúrguer</h2>
+            <p>R$45,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/batata-frita.jpg" alt="">
+            
+        </div>
+        <div class="sub-card">
+            <h2>Batata Frita</h2>
+            <p>R$20,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/bife-acebolado.jpg" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Bife Acebolado</h2>
+            <p>R$40,00</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="top-card">
+            <img src="./img/bife-cavalo.webp" alt="">
+        </div>
+        <div class="sub-card">
+            <h2>Bife à Cavalo</h2>
+            <p>R$40,00</p>
+        </div>
+    </div>
+    <div>
+        <style>
+            .doces {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                width: 250px;
+                height: 350px;
+                color: white;
+                overflow: hidden;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .top-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                display: block;
+            }
+
+            .sub-card {
+                padding: 15px;
+                text-align: center;
+            }
+
+            .card {
+                background-color: black;
+                border-radius: 30px;
+                margin: 20px;
+                height: 350px;
+
+            }
+        </style>
